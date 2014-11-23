@@ -1,0 +1,22 @@
+---
+id: tqrk08
+base_name: hypermicrodata-client
+tags:
+  - ruby
+  - tqrk08
+presentation_date: 2014-11-29
+version: 2014.11.29.0
+licenses:
+  - CC BY-SA 4.0
+slideshare_id: 
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :markdown
+  name: Kunihiko Ito
+  email: kuni.110.92@gmail.com
+  rubygems_user: kunitoo
+  slideshare_user: kunitoo
+  speaker_deck_user: kunitoo
