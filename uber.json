@@ -1,0 +1,15 @@
+{
+  "uber": {
+    "data": [{
+      "data": [
+        { "name": "name", "value": "Kunihiko Ito" },
+        { "name": "email", "value": "kuni.110.92@gmail.com" },
+        { "name": "isPartOf", "rel": "collection", "url": "/users" },
+        { "url": "/users/1/edit" }
+      ],
+      "name": "Person", "url": "http://localhost:3000/users.1"
+      }
+    ],
+    "version": "1.0"
+  }
+}

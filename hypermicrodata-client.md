@@ -53,8 +53,22 @@ http://rubykaigi.org/2014/presentation/S-ToruKawamura
 
 # ケース
 
-入力を繰替えして確認する
+ユーザー登録などの入力を繰替えすフローなど
+
+# ユーザー登録のフロー
+
+* ユーザー名
+* アドレス
+* URL
+* 会社
+* locaiton
 
 # 画面設計
 
 # どう使うの?
+
+
+# user/1
+
+$ curl -H "Accept: application/vnd.amundsen-uber+json" localhost:3000/users/1
+
