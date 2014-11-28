@@ -23,52 +23,64 @@ Ruby Kaigi 参加しました?
 
 # 聞きましたか?
 
-Hypermedia: The Missing Element to Building Adaptable Web APIs in Rails を聞いて感じたこと
+Hypermedia: The Missing Element to Building Adaptable Web APIs in Rails
 
-# まだ見ていない方
+# 聞いていない方
 
-http://rubykaigi.org/2014/presentation/S-ToruKawamura
+* Video: http://rubykaigi.org/2014/presentation/S-ToruKawamura
 
-# 自己紹介
+# はじめまして
 
+* 初参加
 * Kunihiko Ito
 * @kunitoo
 
-# Hypermedia: The Missing Element to Building Adaptable Web APIs in Rails の概要
+# 概要
 
+Hypermedia: The Missing Element to Building Adaptable Web APIs in Rails
 
-# hypermicrodata とは
+* 疎結合なAPI
+* 状態遷移をレスポンスに含める
+* 設計
+  * WEB API
+  * HTML WEB アプリ
+
+# hypermicrodata
+
+* HTMLをJSONに変換
+* HTMLから抽出
+  * mirodata
+  * リンク
+  * フォーム
+
+# あらためて
+
+* Video: http://rubykaigi.org/2014/presentation/S-ToruKawamura
 
 # 感じたこと
 
-クライアントを作成することがとても難しそう...
+* サーバは簡単に作成できそう
+* クライアント難しくなりそう
 
-# 利点
+# アイディア
 
-* 遷移先のurlを変更になってもクライアントを変更しなくてもよい
+クライアントが hypermicrodata と
+同じルールで読みとれれば
+簡単に作れるようになるのでは?
 
-# 利用できそうなケース
+# 実際に作ってみよう！
 
-* フローが変化しにくいもの
+* rails g scaffold User
+  * name
+  * email
+* view に microdata を付加
 
-# ケース
+# client
 
-ユーザー登録などの入力を繰替えすフローなど
+* 
 
-# ユーザー登録のフロー
+# やってみて
 
-* ユーザー名
-* アドレス
-* URL
-* 会社
-* locaiton
-
-# 画面設計
-
-# どう使うの?
-
-
-# user/1
-
-$ curl -H "Accept: application/vnd.amundsen-uber+json" localhost:3000/users/1
+* microdata の付加が難しい
+  * http://schema.org/
 
