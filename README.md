@@ -1,6 +1,6 @@
 # Hypermicrodata client
 
-hypermicrodata gem のクライントである hypermicrodata idobata client について紹介します。
+hypermicrodata のクライアントを作成してみたお話です
 
 ## license
 
