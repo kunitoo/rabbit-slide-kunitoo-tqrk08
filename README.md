@@ -1,6 +1,6 @@
 # Hypermicrodata client
 
-hypermicrodata のクライアントを作成してみたお話です
+hypermicrodata のクライアントを作成しようとしたお話です
 
 ## license
 
